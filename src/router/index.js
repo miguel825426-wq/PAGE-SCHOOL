@@ -17,9 +17,14 @@ const routes = [
     name: 'dashboard',
     component: Dashboard,
      children: [
-      { path: 'registro', 
+
+      { path: '', 
         component: Registro 
       },
+            { path: 'registro', 
+        component: Registro 
+      },
+      
       { path: 'matricula', 
         component: Matricula
       },         // /productos

@@ -1,10 +1,12 @@
-<template>
-       <v-toolbar class="text-white" image="https://images.pexels.com/photos/159751/book-address-book-learning-learn-159751.jpeg?cs=srgb&dl=pexels-pixabay-159751.jpg&fm=jpg"
+<template
+>
+       <v-toolbar class="text-white " color ="rgb(129, 12, 59)"
      height="100">
+         <v-list-item
+            prepend-avatar="https://ieduardosantos.edu.co/wp-content/uploads/2020/02/cropped-Eduardo_santos_logo.png"
+          ></v-list-item>
+  <v-app-bar-title> INSTITUCIÓN EDUCATIVA SANTOS ABREIRO</v-app-bar-title>
 
-      <v-toolbar-title text="INSTITUCIÓN EDUCATIVA SANTOS ABREIRO"></v-toolbar-title>
-
-      <v-btn icon="mdi-export"></v-btn>
     </v-toolbar>
   <v-app id="inspire">
 
@@ -12,10 +14,11 @@
         expand-on-hover
         permanent
         rail
+   color="rgb(14, 75, 112)"  
       >
         <v-list>
           <v-list-item
-            prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
+            prepend-avatar="https://ieduardosantos.edu.co/wp-content/uploads/2020/02/cropped-Eduardo_santos_logo.png"
 
             title="I.E SANTOS ABREIRO"
           ></v-list-item>
@@ -23,11 +26,10 @@
 
         <v-divider></v-divider>
 
-        <v-list density="compact" nav>
+        <v-list  density="compact" nav>
           <v-list-item prepend-icon="mdi-folder" title="Registro" value="myfiles" to="/dashboard/registro/"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-multiple" title="Matricula" value="shared" to="/dashboard/matricula/"></v-list-item>
-          <v-list-item prepend-icon="mdi-star" title="Salir" value="starred" to="/"></v-list-item>
-          <v-list-item prepend-icon="mdi-star" title="Asignaturas" value="starred" ></v-list-item>
+          <v-list-item prepend-icon="mdi-book" title="Matricula" value="shared" to="/dashboard/matricula/"></v-list-item>
+          <v-list-item prepend-icon="mdi-exit-to-app" title="Salir" value="starred" to="/"></v-list-item>
 
         </v-list>
       </v-navigation-drawer>
@@ -71,3 +73,8 @@
     }),
   }
 </script>
+<style scoped>
+.fondo{
+   background-color: aqua;
+}
+</style>

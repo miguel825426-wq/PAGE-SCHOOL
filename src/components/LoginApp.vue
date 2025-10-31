@@ -1,13 +1,32 @@
 <template>
     <div>
+        
         <v-row class="mt-2 d-flex justify-center">
 
+            <v-col cols="7" class="fondo">
+                <v-card
+                    class="mx-auto pa-3 pb-1"
+                    elevation="8"
+                    rounded="lg"
+                    
+                    >
+                                  <v-img
+                  class="mx-auto my-1.5"
+                   max-width="100"
+                   src="https://ieduardosantos.edu.co/wp-content/uploads/2020/02/cropped-Eduardo_santos_logo.png"
+               ></v-img>
+               <p>
+                <r>
+               <i>INSTITUCIÓN EDUCATIVA SANTOS ABREIRO </i>
+               </r>
+               </p>
+              </v-card>
+            </v-col>
             <v-col cols="7" class="fondo">
                 <v-card
                     class="mx-auto pa-12 pb-8"
                     elevation="8"
                     rounded="lg"
-                    
                     >
                     <div class="text-subtitle-1 text-medium-emphasis">Account</div>
 
@@ -82,7 +101,7 @@ const router = useRouter()
 </script>
 <style scoped>
    .fondo{
-    background-color: rgb(48, 137, 3);
+    background-color: rgb(147, 51, 72);
    }
 
    .fondoimagen{

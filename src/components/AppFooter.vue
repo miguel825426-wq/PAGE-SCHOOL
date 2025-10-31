@@ -1,7 +1,8 @@
 <template>
   <v-footer
     app
-    height="80"
+    height="60"
+ color ="rgb(129, 12, 59)"
   >
     <a
       v-for="item in items"

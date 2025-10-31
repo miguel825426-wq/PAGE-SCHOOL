@@ -8,9 +8,7 @@
 
 
 <style>
-body{
-  background-color: rgb(31, 182, 34);
-}
+
 </style>
 .
 
